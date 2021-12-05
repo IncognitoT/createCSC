@@ -268,4 +268,5 @@ WHERE A.PK IS NULL OR B.PK IS NULL;
 
 ![image](https://user-images.githubusercontent.com/95567686/144755448-9d8f24b6-e679-4cd5-acc0-f0e28efeebad.png)
 
-
+-----------------------------------------------------------------------------------------------------------------------------
+select * from attendance
