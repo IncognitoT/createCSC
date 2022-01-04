@@ -94,5 +94,21 @@ def vandermonde(n):
         if arr3[i][k] % 2 !=0 :
             
             arr3[i][k] = -1
-   ------------------------------------------------------------------
+ ------------------------------------------------------------------
+   Exercise 7
+   import numpy as np
+import matplotlib.pyplot as plt
+
+n = 2000
+x_scatter1 = -3 * np.random.rand(n) + 1
+y_scatter1 = -3 * np.random.rand(n) + 1
+
+plt.scatter(x_scatter1, y_scatter1,c='blue');
+
+x_scatter2 = -3 * np.random.rand(n) + 2
+y_scatter2 = -3 * np.random.rand(n) + 2
+
+plt.scatter(x_scatter2, y_scatter2,c='orange');
+
+----------------------------------------------------
     
