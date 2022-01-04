@@ -112,5 +112,18 @@ y_scatter2 = -3 * np.random.rand(n) + 2
 
 plt.scatter(x_scatter2, y_scatter2,c='orange');
 
-----------------------------------------------------
+------------------------  EX9 -----------------------------
+import pandas as pd
+
+iris = pd.read_csv("C:/Users/thosh/Desktop/StudyMaterial/Python/iris.csv", sep=',', index_col="Id") ### give your path
+
+iris = iris.rename(columns={'Species': 'SimplifiedSpecies'})
+
+iris.index = ["plant " + str(i) + '_' for i in range(len(iris))]
+
+
+
+
+
+
     
