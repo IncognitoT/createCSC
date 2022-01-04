@@ -122,7 +122,7 @@ iris = iris.rename(columns={'Species': 'SimplifiedSpecies'})
 iris.index = ["plant " + str(i) + '_' for i in range(len(iris))]
 
 
-
+C:\Users\thosh\Desktop\StudyMaterial\Python
 
 
 
